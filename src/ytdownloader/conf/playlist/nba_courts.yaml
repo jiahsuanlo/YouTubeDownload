@@ -1,0 +1,11 @@
+out_dir: "./output/nba_court_videos"
+
+convert_to_mp3: false
+
+youtube_paths:   
+  # Two items in each entry [youtube_path, basename used to replace the video file name]
+  # if the basename is empty (""), the video name will be its youtube title.
+  - ["https://www.youtube.com/watch?v=AOYACk7m7Fk", "Boston"]
+  - ["https://www.youtube.com/watch?v=fTpZSpG0_vg", "GoldenState"]
+  - ["https://www.youtube.com/watch?v=ku6VBh4TMh0", "Phoenix"]
+

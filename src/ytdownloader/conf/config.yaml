@@ -1,0 +1,4 @@
+defaults:
+  - playlist: songs.yaml
+  
+  

@@ -1,0 +1,24 @@
+out_dir: "./output/lena_songs"
+
+convert_to_mp3: true
+
+youtube_paths:   
+  # Two items in each entry [youtube_path, basename used to replace the video file name]
+  # if the basename is empty (""), the video name will be its youtube title.
+  - ["https://www.youtube.com/watch?v=J2rHco9Ju9k", "Could’ve Been Me"]           
+  - ["https://www.youtube.com/watch?v=VPRjCeoBqrI", "Sky Full of Stars"]          
+  - ["https://www.youtube.com/watch?v=L8eRzOYhLuw", "Break Free"]                 
+  - ["https://www.youtube.com/watch?v=h--P8HzYZ74", "Stay"]                       
+  - ["https://www.youtube.com/watch?v=Nj2U6rhnucI", "Break My Heart"]
+  - ["https://www.youtube.com/watch?v=k2qgadSvNyU", "New Rules"]
+  - ["https://www.youtube.com/watch?v=m7Bc3pLyij0", "Happier"]                 
+  - ["https://www.youtube.com/watch?v=jH1RNk8954Q", "Kings And Queens"]
+  - ["https://www.youtube.com/watch?v=PIFZ-t-_Tnc", "Tightrope"]                  
+  - ["https://www.youtube.com/watch?v=e-ORhEE9VVg", "Blank Space"]
+  - ["https://www.youtube.com/watch?v=b8TYYTU_3i8", "Stories"]                    
+  - ["https://www.youtube.com/watch?v=60ItHLz5WEA", "Faded"]                      
+  - ["https://www.youtube.com/watch?v=gdZLi9oWNZg", "Dynamite"]                   
+  - ["https://www.youtube.com/watch?v=pRpeEdMmmQ0", "Waka Waka"]                  
+  - ["https://www.youtube.com/watch?v=hrMxx8EV4JU", "All of You"]                 
+  - ["https://www.youtube.com/watch?v=w8mBplMtwJ8", "My Head and My Heart"]       
+  - ["https://www.youtube.com/watch?v=dT2owtxkU8k", "There’s Nothing Holding Me Back"] 
