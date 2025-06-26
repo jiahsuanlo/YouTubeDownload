@@ -1,25 +1,22 @@
-[build-system]
-requires = ["setuptools", "setuptools-scm"]
-build-backend = "setuptools.build_meta"
-
 [project]
-name = "youtube_downloader"
-description = "An app to download youtube videos"
+name = "youtubedownload"
+version = "0.1.0"
+description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.8"
-keywords = ["pytube", "hydra"]
-license = {text = "BSD 3-Clause License"}
-classifiers = [
-    "Programming Language :: Python :: 3",
+authors = [
+    { name = "Josh Lo", email = "jiahsuanlo@yahoo.com" }
 ]
-dynamic = ["dependencies"]
-version = "0.0.1"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.3.0",
+    "pytubefix>=9.2.2",
+    "tqdm>=4.67.1",
+]
 
 [project.scripts]
 ytdownload = "ytdownloader.download_youtube_video:main"
 
-[tool.setuptools]
-include-package-data = true
 
-[tool.setuptools.dynamic]
-dependencies = {file = "requirements.txt"}
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

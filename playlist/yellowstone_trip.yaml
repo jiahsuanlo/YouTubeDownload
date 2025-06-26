@@ -1,0 +1,37 @@
+out_dir: "./output/yellowstone_trip"
+
+convert_to_mp3: true
+
+youtube_paths:   
+  # Two items in each entry [youtube_path, basename used to replace the video file name]
+  # if the basename is empty (""), the video name will be its youtube title.
+  - ["https://youtu.be/11T6kF66dKY?si=u4rvWUaepcK1DP5n", "I Had Some Help"]
+  - ["https://youtu.be/V2G8ESoDXm8?si=a64JB1nkSri3AIWD", "Saturn"]
+  - ["https://youtu.be/rpIsJx9ewdI?si=DphTTOjR7iPaIy7h", "Illusion"]
+  - ["https://youtu.be/M5aEiDSx7kI?si=IlRt5bqcAmawKUpD", "Supernatural"]
+  - ["https://youtu.be/FyG21rXCxlY?si=KtZl_LOtiHzTuQcd", "Cosmic"]
+  - ["https://www.youtube.com/watch?v=XpDEdMu_6O8&list=PLDIoUOhQQPlWc-Kd6TCjTRIl0Z6fSQV0X&index=6", "Lose Control"]
+  - ["https://youtu.be/h-i_aHubsr4?si=j9N71HZK1bBHmnHd", "Belong together"]
+  - ["https://youtu.be/8aTS_cnPK5c?si=ig9h0qsQ8PSQfJGG", "Who"]
+  - ["https://youtu.be/Bdzv7JBvkis?si=ae2h9vFAazGNjd6q", "I AM"]
+  - ["https://www.youtube.com/watch?v=3xxkXuOFoGg", "Fate"]
+  - ["https://www.youtube.com/watch?v=phsDrsw-tzc", "T.B.H"]
+  - ["https://youtu.be/qfVuRQX0ydQ?si=5KmUhVtl-y99SioG", "Weeekly"]
+  - ["https://youtu.be/qedonJosQ3g?si=hz9FpITbTY167y9z", "Sweet Venom"]
+  - ["https://youtu.be/3d47NFgOADM?si=hLD4RgO1UcWnvs0p", "BADVILLAIN"]
+  - ["https://youtu.be/StYpEDJs0Rk?si=PTiGzy6LOPyYI9AY", "Midas Touch"]
+  - ["https://youtu.be/QFNOMOk6cZQ?si=64dloTYNq_6qvJtS", "Accendio"]
+  - ["https://youtu.be/NoYKBAajoyo?si=ua6DRoRmvV0bNgLk", "DUN DUN"]
+  - ["https://youtu.be/eDEFolvLn0A?si=_rNj9KEeAL5vSh9-", "FIESTA"]
+  - ["https://www.youtube.com/watch?v=nnVjsos40qk&list=PLRWq_LGuo6X68R7zC_dP1cp0Mt-JoGbPF&index=7", "Secret Story Of The Swan"]
+  - ["https://www.youtube.com/watch?v=3ymwOvzhwHs&list=PLRWq_LGuo6X68R7zC_dP1cp0Mt-JoGbPF&index=76", "Feel Special"]
+  - ["https://www.youtube.com/watch?v=mH0_XpSHkZo", "MORE & MORE"]
+  - ["https://youtu.be/oJ2EmLEUIto?si=BWeAlxCvVZGDtH1e", "WICKED LOVE"]
+  - ["https://youtu.be/UvvMPxZI_sw?si=-fbyGp8LFx8Vmxqj", "Paint the Town"]
+  - ["https://youtu.be/2S24-y0Ij3Y?si=-5LyZMLT-7aCve3n", "KILL THIS LOVE"]
+  - ["https://youtu.be/IOKMx1jeCjY?si=JCRtKfp8roYyDevd", "NOT SHY"]
+  - ["https://www.youtube.com/watch?v=e91HyUPLaMM", "Eleven"]
+  - ["https://youtu.be/U1e51AhXQGQ?si=54rgZVyUAIlPoV-n", "BITE ME"]
+  - ["https://youtu.be/eVli-tstM5E?si=dALbJ4RcJF-7QUm3", "Espresso"]
+  - ["https://youtu.be/pUanlyF510I?si=8iHzMAJPY_Q2j7mh", "we can’t be friends"]
+  - ["https://www.youtube.com/watch?v=ScRCef7kXGg", "Doraemon theme song"]
